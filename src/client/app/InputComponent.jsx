@@ -9,7 +9,13 @@ class InputComponent extends React.Component {
   render() {
     return (
       <div>
-        Im text
+        <div>
+          Type in a word
+        </div>
+        <div>
+          <input type="text" value="hello" name="word"/>
+          <input type='submit' value="submit"/>
+        </div>
       </div>
     );
   }
