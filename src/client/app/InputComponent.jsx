@@ -1,4 +1,4 @@
-import styles from '../public/index.css';
+import index from '../public/index.css';
 import React from 'react';
 
 class InputComponent extends React.Component {
@@ -10,7 +10,7 @@ class InputComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1 className={styles.title}>
+        <h1 className={index.red}>
           Type in a word
         </h1>
         <div>

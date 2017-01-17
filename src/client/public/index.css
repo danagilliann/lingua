@@ -1,4 +1,5 @@
-.title {
-  color: red;
-  font-size: 80px;
+.red {
+  font-size: 25px;
+  background-color: blue;
+  color: white;
 }
