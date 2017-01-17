@@ -9,13 +9,13 @@ class InputComponent extends React.Component {
 
   render() {
     return (
-      <div id='input-comp'>
-        <h1 class='${styles.title}'>
+      <div>
+        <h1 className={styles.title}>
           Type in a word
         </h1>
-        <div class='input-input'>
-          <input class='input-input-text' type='text' value='hello' name='word'/>
-          <input class='input-input-submit' type='submit' value='submit'/>
+        <div>
+          <input type='text' value='hello' name='word'/>
+          <input type='submit' value='submit'/>
         </div>
       </div>
     );
