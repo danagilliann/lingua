@@ -1,5 +1,20 @@
-.red {
-  font-size: 25px;
-  background-color: blue;
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:300,900');
+
+body {
+  margin: 0;
+  background-color: rgb(0, 64, 128);
+}
+
+.app {
+  font-family: 'Yantramanav', sans-serif;
+  text-align: center;
   color: white;
+}
+
+.title {
+  margin-top: 2em;
+}
+
+.h1 {
+  font-size: 5em;
 }

@@ -10,7 +10,7 @@ class InputComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1 className={index.red}>
+      <h1 className={[index.h1, index.title].join(' ')}>
           Type in a word
         </h1>
         <div>
