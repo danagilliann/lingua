@@ -5,6 +5,26 @@ body {
   background-color: rgb(0, 64, 128);
 }
 
+.inputWordText {
+  background-color: transparent;
+  color: white;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 3px solid white;
+  font-size: 2em;
+  font-family: 'Yantramanav', sans-serif;
+  text-align: center;
+}
+
+.inputWordDiv {
+  margin-top: -3em;
+}
+
+.inputSubmitDiv {
+  margin-top: 3em;
+}
+
 .app {
   font-family: 'Yantramanav', sans-serif;
   text-align: center;
