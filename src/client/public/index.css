@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Yantramanav:300,900');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Yantramanav:900');
 
 body {
   margin: 0;
@@ -13,7 +13,7 @@ body {
   border-right: none;
   border-bottom: 3px solid white;
   font-size: 2em;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   text-align: center;
 }
 
@@ -21,18 +21,25 @@ body {
   margin-top: -3em;
 }
 
-.inputSubmitDiv {
-  margin-top: 3em;
+input[type='submit'].inputSubmitDiv {
+  margin-top: 4.5em;
+  background-color: black;
+  border: none;
+  font-family: 'Yantramanav', sans-serif;
+  padding: 10px 60px;
+  color: white;
+  font-size: 23px;
+  letter-spacing: 1px;
 }
 
 .app {
-  font-family: 'Yantramanav', sans-serif;
+  margin-top: 10em;
   text-align: center;
   color: white;
 }
 
 .title {
-  margin-top: 2em;
+  font-family: 'Yantramanav', sans-serif;
 }
 
 .h1 {

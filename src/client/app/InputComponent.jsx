@@ -15,16 +15,11 @@ class InputComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1 className={[index.h1, index.title].join(' ')}>
-            Type in a word
-        </h1>
-        <div>
-          <div className={index.inputWordDiv}>
-            <input className={index.inputWordText} type='text' value={this.state.word} onChange={this.changeText} name='word'></input>
-          </div>
-          <div className={index.inputSubmitDiv}>
-            <input className={index.inputSubmitDiv} type='submit' value='submit'/>
-          </div>
+        <div className={index.inputWordDiv}>
+          <input className={index.inputWordText} type='text' value={this.state.word} onChange={this.changeText} name='word'></input>
+        </div>
+        <div className={index.inputSubmitDiv}>
+          <input className={index.inputSubmitDiv} type='submit' value='Submit'/>
         </div>
       </div>
     );
